@@ -211,12 +211,30 @@
 
 
 
-arr=[48,12,66,68,01]
-// function arrayalter(arr)
-// arr=[];
+// arr=[48,12,66,68,01]
+// // function arrayalter(arr)
+// // arr=[];
 
-for(i=0;i<arr.length;i+=2){
-    arr.push(arr[i])
+// for(i=0;i<arr.length;i+=2){
+//     arr.push(arr[i])
+// }
+//         console.log(i)
+
+
+
+
+// let numbers=[10,20,4,556,4891,1,12,46]
+// let greatest=Math.max(numbers);
+// console.log(greatest)
+
+
+
+function largest(arr){
+    let max=arr[0];
+    for(let i=1;i<arr.length;i++){
+        if(arr[i]>max){
+            max=arr[i];
+        }
 }
-        console.log(i)
-
+return max;
+}

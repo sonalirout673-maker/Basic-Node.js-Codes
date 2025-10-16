@@ -80,7 +80,13 @@
 
 
 
-let name=["Sonali" ,"Sony" ,"Sona" , "Asmita" , "Rani"]
-let vowels=name.match(/[aeiou]/gi);
-let vowelsArray=vowels||[];
-console.log(vowels)
+// let name=["Sonali" ,"Sony" ,"Sona" , "Asmita" , "Rani"]
+// let vowels=name.match(/[aeiou]/gi);
+// let vowelsArray=vowels||[];
+// console.log(vowels)
+
+
+
+
+
+
